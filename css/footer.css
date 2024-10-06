@@ -11,3 +11,10 @@ footer span{
     font-size: 0.8em;
     font-weight: 200;
 }
+
+@media (max-width: 500px){
+    footer span{
+        font-size: 0.6em;
+        align-items: center;
+    }
+}
