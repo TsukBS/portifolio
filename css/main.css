@@ -104,6 +104,11 @@ main figure figcaption{
         flex-direction: column;
     }
 
+    main .techs .cards-container .card{
+        margin-right: 3em;
+    }
+
+
     main figure img{
         width: 100px;
         height: 100px;
