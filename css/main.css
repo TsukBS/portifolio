@@ -26,6 +26,7 @@ main .main-content .text p{
     width: 75%;
     font-size: 1.2em;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 /*CARDS*/
@@ -42,7 +43,8 @@ main .techs .cards-container .card{
     padding: 10px;
     background-color: #eee;
     border-radius: 8px;
-    margin-right: 1.8em;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
     cursor: pointer;
 
     display: flex;
@@ -88,42 +90,5 @@ main figure figcaption{
     font-size: 0.8em;
 }
 
-/*medea @*/
-
-@media (max-width: 500px){
-
-    main{
-        flex-direction: column-reverse;
-    }
-
-    main section{
-        flex-direction: column;
-    }
-
-    
-    main .main-content .text p{
-        text-align: center;
-    }
-
-    main .techs .cards-container{
-        flex-direction: column;
-    }
-
-    main .techs .cards-container .card{
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
 
 
-    main figure img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-    
-        margin-bottom: 6%;
-        border:  1px #00e0ff;
-        transition: 0.2s ease-in-out;
-
-    
-    }
-}
