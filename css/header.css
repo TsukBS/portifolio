@@ -19,7 +19,8 @@ header > nav{
 }
 
 header > nav > a{
-    margin-right: 1.3em;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
     font-size: 1.5em;
 }
 
