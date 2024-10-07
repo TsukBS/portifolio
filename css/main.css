@@ -100,12 +100,18 @@ main figure figcaption{
         flex-direction: column;
     }
 
+    
+    main .main-content .text p{
+        text-align: center;
+    }
+
     main .techs .cards-container{
         flex-direction: column;
     }
 
     main .techs .cards-container .card{
-        margin-bottom: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
 
 
